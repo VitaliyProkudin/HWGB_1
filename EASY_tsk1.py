@@ -1,6 +1,3 @@
-import sys
-a = int(sys.argv[1])
-b = 0
-while b < a:
-    print(b)
-    b = b + 1
+a = input('Enter int:')
+for x in range(len(a)):
+    print(int(a[x]))
